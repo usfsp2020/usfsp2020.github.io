@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(#30343B,#040710);
+    font-family: 'Montserrat', sans-serif;
+    color: #CBCBCB;
+    margin: 0;
+    padding:0;
+}
+
+.wrapper {
+    text-align: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    height: 40vh;
+    padding: 10px 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+.wrapper h1 {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 76px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+
+.wrapper h2 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2;
+}
+
+.line {
+    display: inline-block;
+    width: 120px;
+    border-bottom: 8px solid lightskyblue;
+    margin: 0 10px 0 0;
+}
+
+.intro {
+    padding: 45px 0; 
+    letter-spacing: 1.25;
+}
+
+.signup p{
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.intro, footer {
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+footer {
+    letter-spacing: 1.1;
+    margin: 0 0 40px
+}
+
+
+/***MAILCHIMP STYLING*/
+#mc_embed_signup {
+    margin: 0 10px 60px;
+}
+
+input#mce-EMAIL.email {
+    background-color: rgba(255,255,255,0.1);
+}
+
+input#mc-embedded-subscribe.button {
+    background-color: rgba(60, 129, 172, 0.582);
+}
