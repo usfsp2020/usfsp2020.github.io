@@ -82,7 +82,9 @@ footer {
 
 /***MAILCHIMP STYLING*/
 #mc_embed_signup {
-    margin: 0 10px 60px;
+    margin: 0 auto 60px;
+    position:relative;
+
 }
 
 input#mce-EMAIL.email {
